@@ -1,0 +1,106 @@
+{
+  "vehicles": [
+    {
+      "id": "sedan",
+      "category": "Standard Fleet",
+      "tag": "Sedan",
+      "title": "Sedan Car",
+      "meta": "Dzire · Etios · Amaze · Aura · Tigor",
+      "image": "assets/dzire.png",
+      "local_price": "₹2,400",
+      "outstation_price": "₹12/km",
+      "badge": "Most Popular"
+    },
+    {
+      "id": "suv",
+      "category": "Standard Fleet",
+      "tag": "SUV",
+      "title": "SUV Car",
+      "meta": "Ertiga · Rumion · Triber · XL6",
+      "image": "assets/ertiga.png",
+      "local_price": "₹3,000",
+      "outstation_price": "₹15/km"
+    },
+    {
+      "id": "innova",
+      "category": "Standard Fleet",
+      "tag": "Premium",
+      "title": "Innova Crysta",
+      "meta": "7+1 Seater · Spacious · AC",
+      "image": "assets/innovacrysta.png",
+      "local_price": "₹3,600",
+      "outstation_price": "₹18/km",
+      "badge": "Premium"
+    },
+    {
+      "id": "hycross",
+      "category": "Standard Fleet",
+      "tag": "Premium",
+      "title": "Innova Hycross",
+      "meta": "Hybrid · Premium Interior",
+      "image": "assets/innovacrysta.png",
+      "local_price": "₹4,400",
+      "outstation_price": "₹22/km"
+    },
+    {
+      "id": "fortuner",
+      "category": "Standard Fleet",
+      "tag": "Luxury",
+      "title": "Fortuner Legender",
+      "meta": "Premium SUV · Powerful",
+      "image": "assets/fortunerlegender.png",
+      "local_price": "₹9,000",
+      "outstation_price": "₹50/km"
+    },
+    {
+      "id": "premium-sedan",
+      "category": "Standard Fleet",
+      "tag": "Premium Sunroof",
+      "title": "Honda City / Verna",
+      "meta": "Sunroof · Premium Interior",
+      "image": "assets/city.png",
+      "local_price": "₹5,400",
+      "outstation_price": "₹27/km"
+    },
+    {
+      "id": "bmw",
+      "category": "Luxury & Wedding",
+      "tag": "Luxury",
+      "title": "BMW",
+      "image": "assets/bmw.png",
+      "local_price": "₹30,000",
+      "outstation_price": "₹100/km",
+      "badge": "Luxury"
+    },
+    {
+      "id": "audi",
+      "category": "Luxury & Wedding",
+      "tag": "Luxury",
+      "title": "Audi / Jaguar",
+      "image": "assets/audi.png",
+      "local_price": "₹30,000",
+      "outstation_price": "₹100/km",
+      "badge": "Luxury"
+    },
+    {
+      "id": "mercedes",
+      "category": "Luxury & Wedding",
+      "tag": "Ultra Luxury",
+      "title": "Mercedes",
+      "image": "assets/mercedes.png",
+      "local_price": "₹35,000",
+      "outstation_price": "₹120/km",
+      "badge": "Ultra Luxury"
+    },
+    {
+      "id": "tempo",
+      "category": "Group Travel",
+      "tag": "Group Travel",
+      "title": "Tempo Traveller",
+      "meta": "13 to 26 Seater · Pushback Seats",
+      "image": "assets/tempo_traveller.png",
+      "local_price": "₹4,800",
+      "outstation_price": "₹24/km"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+backend:
+  name: github
+  repo: sagartravelagency/sagartourandtravelswebsite
+  branch: main
+media_folder: "assets" # Media files will be stored in the repo under assets/
+public_folder: "/assets" # The src attribute for uploaded media will begin with /assets
+
+collections:
+collections:
+  - name: "data"
+    label: "Data Files"
+    files:
+      - name: "fleet"
+        label: "Fleet Vehicles"
+        file: "src/_data/fleet.json"
+        fields:
+          - label: "Vehicles"
+            name: "vehicles"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string"}
+              - {label: "Category", name: "category", widget: "select", options: ["Standard Fleet", "Luxury & Wedding", "Group Travel"]}
+              - {label: "Badge (Optional)", name: "badge", widget: "string", required: false}
+              - {label: "Tag (Optional)", name: "tag", widget: "string", required: false}
+              - {label: "Vehicle Name", name: "title", widget: "string"}
+              - {label: "Description / Features", name: "meta", widget: "string", required: false}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Local Price", name: "local_price", widget: "string"}
+              - {label: "Outstation Price", name: "outstation_price", widget: "string"}

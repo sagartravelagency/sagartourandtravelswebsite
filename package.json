@@ -1,0 +1,23 @@
+{
+  "name": "sagar_travels",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagartravelagency/sagartourandtravelswebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagartravelagency/sagartourandtravelswebsite/issues"
+  },
+  "homepage": "https://github.com/sagartravelagency/sagartourandtravelswebsite#readme",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}
