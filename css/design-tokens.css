@@ -1,0 +1,145 @@
+/* ============================================
+   SAGAR TOUR AND TRAVELS — DESIGN TOKENS
+   ============================================ */
+
+:root {
+  /* ── Tier 1: Literal Color Tokens ── */
+  --navy-50: #f0f4ff;
+  --navy-100: #dbe4ff;
+  --navy-200: #b5c8ff;
+  --navy-300: #8aa8ff;
+  --navy-400: #5c85f2;
+  --navy-500: #3a63d8;
+  --navy-600: #1e3a8a;
+  --navy-700: #162d6e;
+  --navy-800: #0f1f4d;
+  --navy-900: #0a1632;
+  --navy-950: #060e1f;
+
+  --gold-50: #fffbeb;
+  --gold-100: #fef3c7;
+  --gold-200: #fde68a;
+  --gold-300: #fcd34d;
+  --gold-400: #fbbf24;
+  --gold-500: #f59e0b;
+  --gold-600: #d97706;
+  --gold-700: #b45309;
+  --gold-800: #92400e;
+  --gold-900: #78350f;
+
+  --neutral-50: #faf9f7;
+  --neutral-100: #f5f3ef;
+  --neutral-200: #e8e4dd;
+  --neutral-300: #d4cfc5;
+  --neutral-400: #a8a295;
+  --neutral-500: #7c766a;
+  --neutral-600: #5c574e;
+  --neutral-700: #3d3a34;
+  --neutral-800: #27251f;
+  --neutral-900: #1a1815;
+
+  --green-500: #22c55e;
+  --green-600: #16a34a;
+  --red-500: #ef4444;
+
+  /* ── Tier 2: Semantic Tokens ── */
+  --color-primary: var(--navy-600);
+  --color-primary-light: var(--navy-500);
+  --color-primary-dark: var(--navy-800);
+  --color-primary-surface: var(--navy-50);
+
+  --color-accent: var(--gold-500);
+  --color-accent-hover: var(--gold-600);
+  --color-accent-light: var(--gold-100);
+  --color-accent-surface: var(--gold-50);
+
+  --color-bg: var(--neutral-50);
+  --color-bg-alt: var(--neutral-100);
+  --color-surface: #ffffff;
+  --color-surface-elevated: #ffffff;
+
+  --color-text: var(--neutral-800);
+  --color-text-secondary: var(--neutral-500);
+  --color-text-inverse: #ffffff;
+  --color-text-on-primary: #ffffff;
+  --color-text-on-accent: var(--neutral-900);
+
+  --color-border: var(--neutral-200);
+  --color-border-strong: var(--neutral-300);
+
+  --color-success: var(--green-500);
+  --color-whatsapp: #25d366;
+  --color-call: var(--navy-600);
+
+  /* ── Typography ── */
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --text-xs: clamp(0.7rem, 0.65rem + 0.25vw, 0.75rem);
+  --text-sm: clamp(0.8rem, 0.75rem + 0.25vw, 0.875rem);
+  --text-base: clamp(0.9rem, 0.85rem + 0.25vw, 1rem);
+  --text-lg: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
+  --text-xl: clamp(1.15rem, 1rem + 0.75vw, 1.25rem);
+  --text-2xl: clamp(1.35rem, 1.1rem + 1.25vw, 1.5rem);
+  --text-3xl: clamp(1.6rem, 1.2rem + 2vw, 1.875rem);
+  --text-4xl: clamp(1.9rem, 1.3rem + 3vw, 2.25rem);
+  --text-5xl: clamp(2.2rem, 1.4rem + 4vw, 3rem);
+
+  --leading-tight: 1.2;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+
+  /* ── Spacing ── */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+
+  /* ── Layout ── */
+  --container-max: 1200px;
+  --container-wide: 1400px;
+  --container-narrow: 800px;
+  --container-padding: clamp(1rem, 3vw, 2rem);
+
+  /* ── Borders & Radius ── */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 1px 3px rgba(10, 22, 50, 0.06);
+  --shadow-md: 0 4px 12px rgba(10, 22, 50, 0.08);
+  --shadow-lg: 0 8px 30px rgba(10, 22, 50, 0.12);
+  --shadow-xl: 0 16px 50px rgba(10, 22, 50, 0.16);
+  --shadow-glow: 0 0 40px rgba(245, 158, 11, 0.15);
+  --shadow-card: 0 2px 8px rgba(10, 22, 50, 0.05), 0 0 1px rgba(10, 22, 50, 0.1);
+
+  /* ── Transitions ── */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-fast: 150ms var(--ease-out);
+  --transition-normal: 250ms var(--ease-out);
+  --transition-slow: 400ms var(--ease-out);
+
+  /* ── Z-Index ── */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-header: 300;
+  --z-overlay: 400;
+  --z-modal: 500;
+  --z-cta-bar: 600;
+}
